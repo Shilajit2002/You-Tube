@@ -118,16 +118,24 @@ header #left {
     margin: 13px 0px;
     padding: 5px 10px;
     cursor: pointer;
-    color: rgb(31, 31, 31);
+    background-color: #373737;
+    color: rgb(255, 255, 255);
     font-family: 'Times New Roman', Times, serif;
     font-size: 15px;
     font-weight: 600;
     border: 0.5px solid rgb(73, 73, 73);
+    transition: background-color 1ms;
+
+}
+
+#top .down button:hover {
+    background-color: rgb(102, 99, 99);
 }
 
 #top .down .all {
-    color: white;
-    background-color: #181818;
+    color: rgb(0, 0, 0);
+    background-color: #ffffff;
+    border: 0.5px solid rgb(73, 73, 73);
 }
 
 #top .down h1 {
@@ -143,6 +151,7 @@ header #left {
     font-size: 12px;
     font-weight: 400;
     padding-bottom: 25px;
+    transition: background-color 1ms;
 }
 
 #left .first {
@@ -156,6 +165,10 @@ header #left {
     height: 26px;
     border-radius: 100%;
     margin: 15px 0px 4px 25px;
+}
+
+#left a:hover {
+    background-color: rgb(80, 80, 80);
 }
 
 main {
